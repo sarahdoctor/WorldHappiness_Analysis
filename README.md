@@ -1,2 +1,7 @@
 # WorldHappiness_Analysis
-Analysing the 2021 World Happiness Report dataset from Kaggle
+A regional analysis of the 2021 World Happiness Report dataset from Kaggle. Through data visualization we can observe how different regions perform amongst the variables with a high correlation to the Happiness Scores.
+
+1) Data checking and cleaning: the dataset was checked for NaaNs and only the relevant indicators were retained.
+2) Correlation between variables: The correlation between the variables impacting the World Happiness Scores of countries was represented using a correlation map. This showed us that the log value of the GDP and the Life Expectancy variables had a high correlation with the Happiness Scores.
+3) Relationship between GDP and Happiness Scores: Through a scatterplot we are able to visualize an upward trend, where higher GDP corresponds to higher Happiness Scores. Majority of the countries with the highest scores appear to belong to Western Europe, whereas the countries with the lower scores largely belong to Sub-Saharan Africa. This is further validated through a bar graph depicting the mean GDP across all regions.
+4) Relationship between Life Expectancy and Happiness Scores: The life expectancy of the top 10 countries is compared to the bottom 10 countries through bar graphs, which depict a direct relationship between life expectancy and Happiness Scores. Further, by analysing the average Life Expectancy we find again that Western Europe has the highest Life Expectancy, whereas Sub-Saharan Africa has the lowest Life Expectancy.
